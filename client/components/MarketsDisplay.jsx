@@ -18,6 +18,7 @@ const MarketsDisplay = props => {
   return(
     <div className="displayBox">
       <h4>Markets</h4>
+      <Market />
     </div>
   );
 };

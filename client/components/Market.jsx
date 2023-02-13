@@ -13,7 +13,7 @@ import React from 'react';
 
 const Market = props => (
   <div className="marketBox">
-
+    <h1>This is the Market.jsx</h1>
   </div>
 );
 

@@ -11,6 +11,9 @@
 
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import TotalsDisplay from '../components/TotalsDisplay.jsx';
+import MarketsDisplay from '../components/MarketsDisplay.jsx';
+import MarketsContainer from './MarketsContainer.jsx';
 // import from child components...
 
 
@@ -28,7 +31,8 @@ class MainContainer extends Component {
       <div className="container">
         <div className="outerBox">
           <h1 id="header">MegaMarket Loyalty Cards</h1>
-          { /* Start adding components here... */ }
+          <TotalsDisplay />
+          <MarketsContainer />
         </div>
       </div>
     );

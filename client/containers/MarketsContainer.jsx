@@ -14,6 +14,8 @@ import { connect } from 'react-redux';
 // import actions from action creators file
 import * as actions from '../actions/actions';
 // import child components...
+import MarketCreator from '../components/MarketCreator.jsx';
+import MarketsDisplay from '../components/MarketsDisplay.jsx';
 
 const mapStateToProps = state => ({
   // provide pertinent state here
@@ -31,7 +33,8 @@ class MarketsContainer extends Component {
   render() {
     return(
       <div className="innerbox">
-        { /* add components here... */ }
+        <MarketCreator />
+        <MarketsDisplay />
       </div>
     );
   }
